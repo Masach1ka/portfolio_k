@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 594.32 318.35">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #ede6d6;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="594.32" height="318.35"/>
+    </clipPath>
+  </defs>
+  <g id="_固定" data-name="固定">
+    <g class="cls-1">
+      <path class="cls-3" d="M508.85,291.17H-292.22c-6.68,0-10.07-8.04-5.4-12.82l132.52-135.56c2.58-2.64,6.69-3.03,9.72-.91l109.17,76.24c3.12,2.18,7.38,1.69,9.93-1.13L128.83,33.83c3.13-3.48,8.64-3.29,11.53.38l143.54,182.33c2.61,3.32,7.44,3.85,10.71,1.17l93.27-76.43c3.18-2.61,7.86-2.19,10.53.95l116.17,136.51c4.17,4.9.69,12.44-5.75,12.44Z"/>
+    </g>
+  </g>
+</svg>

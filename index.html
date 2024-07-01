@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.css" integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js" integrity="sha512-Ixzuzfxv1EqafeQlTCufWfaC6ful6WFqIz4G+dWvK0beHw0NVJwvCKSgafpy5gwNqKmgUfIBraVwkKI+Cz0SEQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'aeo2zbm',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+</head>
+<body>
+    <header id="header" class="header_sticky">
+        <div class="header_mv">
+            <p class="header_copy">
+                <span class="line">あなたと</span>
+                <span class="line">ともに歩む</span>
+                <span class="line">デザイン。</span>
+            </p>
+            <div class="top_icon">
+                <img src="./img/top_icon.png"/>
+            </div>
+            <img class="mountain left top_parts" src="./img/mountain.svg" />
+            <div class="cloud left top_parts">
+                <img src="./img/cloud.svg"/>
+            </div>
+            <img class="mountain right top_parts" src="./img/mountain.svg" />
+            <div class="cloud right top_parts">
+                <img src="./img/cloud.svg"/>
+            </div>
+        </div>
+    </header>
+        <!-- <div class="header_mv">
+            <div>
+                <picture>
+                    <source srcset="./img/mv-sp.png" media="(max-width:767px)">
+                    <img src="./img/MV.png" alt="about">
+                </picture>
+            </div>        
+        </div> -->
+            <div class="header_wrap">
+                <h1 class="logo">
+                    <a href="index.html">
+                    <img src="./img/logo@2x.png" alt="Altirsum">
+                </a>
+                </h1>
+                <nav class="pc_nav">
+                    <ul>
+                        <li><a href="./about.html">about</a></li>
+                        <li><a href="./works.html">works</a></li>
+                        <li><a href="#contact-form">contact</a></li>
+                    </ul>
+                </nav>
+                <div class="sp_btn"><span></span></div>
+                <nav class="sp_nav">
+                    <ul>
+                        <li><a href="./about.html">about</a></li>
+                        <li><a href="./works.html">works</a></li>
+                        <li><a href="#contact-form">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+
+        <!-- about -->
+        <section class="section-wrap">
+            <div class="about-cont">
+                <h2 class="ttl-about title">about</h2>
+                <div class="box">
+                    <div class="box-left">
+                        <div class="title-m">history</div>
+                        <p>大阪でwebデザイナーをしております。<br>
+                            2022年職業訓練校にてweb制作を学び始める。<br>
+                            2023年から営業会社にて、ディレクション・デザイン・
+                            コーディングなどの業務を行う。<br>
+                            2024年本業と並行してデザスタ卒業。
+                        </p>
+                        <div class="title-m">Profile</div>
+                        <table class="info">
+                            <tr>
+                                <th class="name">屋号</th>
+                                <td>Altruism（アルティリズム）</td>
+                            </tr>
+                            <tr>
+                                <th class="name">名前</th>
+                                <td>小林 正央 Masachika Kobayashi</td>
+                            </tr>
+                            <tr valign="top">
+                                <th>事業内容</th>
+                                <td>Web制作におけるディレクション・デザイン・<br>コーディング・CMS導入</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="box-right">
+                        <p class="text-big">デザインの力で、<br class="br-pc">
+                            お悩みを解決する。<br class="br-pc">
+                            そんなお手伝いが<br class="br-pc">できればと考えています。<br class="br-pc">共に歩んで、<br class="br-pc">新しい価値を生み出せる<br class="br-pc">そんな存在でありたい。</p>
+                        <div class="btn_more"><a href="./about.html">続きをみる</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--パララックス -->
+        <div class="parallax"> 
+            <div class="parallax-bg"></div>
+        </div>
+          <!--パララックス -->
+
+          <!-- works -->
+            <section class="section-wrap">
+                <div class="scrollbox">
+                    <h2 class="ttl-works title">works</h2>
+                    <div class="works-flex">
+                    <div class="works-flex-inner">
+                        <a href="./mobile.html">
+                            <img class="pc" src="./img/mobile-bnr.png" alt="">
+                        </a>
+                        <p>モバイルバナーデザイン</p>
+                    </div>
+                    <div class="works-flex-inner">
+                        <a href="./burger_pop.html">
+                            <img src="./img/burger-pop-bnr.png" alt="">
+                        </a>
+                        <p>飲食店バナーデザイン                        </p>
+                    </div>
+                    <div class="works-flex-inner">
+                        <a href="./workes_lp.html">
+                            <img src="./img/lp-design.png" alt="">
+                        </a>
+                        <p>LPデザイン</p>
+                    </div>
+                    <div class="works-flex-inner">
+                        <a href="./travel.html">
+                            <img src="./img/travel-bnr.png" alt="">
+                        </a>
+                        <p>旅行バナーデザイン</p>
+                    </div>
+                    <div class="works-flex-inner">
+                        <a href="./burger.html">
+                            <img src="./img/burger-bnr.png" alt="">
+                        </a>
+                        <p>ハンバーガーバナーデザイン</p>
+                    </div>
+                    <div class="works-flex-inner">
+                        <a href="./haircare.html">
+                            <img src="./img/shampoo-bnr.png" alt="">
+                        </a>
+                        <p>ヘアケアバナーデザイン</p>
+                    </div>
+                </div>
+                <div class="btn_more works"><a href="./works.html">続きをみる</a></div>
+            </div>
+            </section>
+
+
+        <!--パララックス -->
+            <div class="parallax">
+                <div class="parallax-bg2"></div>
+            </div>
+        <!--パララックス -->
+
+        <!-- contact -->
+            <section class="section-wrap">
+                <div id="contact-form">
+                <div class="contact-box">
+                    <h2 class="ttl-contact title">contact</h2>
+                    <p class="contact-txt">お仕事のご依頼、なんでもお気軽にご相談ください。いつだって何気ない会話から生まれるアイデアがあります。そんな声を是非、聞かせてください。
+                    </p>
+                    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd_HqM5UIevYTGRvAooAlfRdRCcrTC9RaHtLQSNp3UB0JzhHA/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;" class="c-form">
+                        <div class="c-form__item">
+                            <label class="c-form__label" for="field-name">name</label>
+                            <input name="entry.1894024006" class="c-form__input" id="field-name" type="text" required="required"/>
+                        </div>
+                        <div class="c-form__item">
+                            <label class="c-form__label" for="field-mail">mail address</label>
+                            <input name="entry.676919769" class="c-form__input" id="field-mail" type="email" required="required"/>
+                        </div>
+                        <div class="c-form__item">
+                            <label class="c-form__label" for="field-message">message</label>
+                            <textarea name="entry.1943416616" class="c-form__input" id="field-message"></textarea>
+                        </div>
+                        <div class="c-form__submit">
+                            <button type="submit">連絡する</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="footer-wrapper">
+        <div class="contact-img">
+            <img src="./img/contact-ft.png" alt="森の画像">
+        </div>
+            <footer class="footer">
+                <p class="footer_copy"><small>&copy;Masachika Kobayashi</small></p>
+            </footer>
+    </div>
+        <div class="pagetop">
+            <a href="#header">
+                <img src="./img/pagetop.png" alt="TOPへ戻る">
+            </a>
+        </div>
+    
+    
+        <script>
+            $(function() {
+            $('.sp_btn').on('click',function() {
+                $('.sp_nav').fadeToggle()
+                $('.sp_btn').toggleClass('open');
+                })
+                            // 文字が1行ずつ表示される
+            const $lines = $(".line");
+            setTimeout(() => {
+                $lines.each(function(index) {
+                    setTimeout(() => {
+                        $(this).css("opacity", "1");
+                    }, index * 1000);
+                });
+            }, 500)
+
+            });
+        </script>
+        <script type="text/javascript">
+            let submitted = false;
+        </script>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='https://docs.google.com/forms/u/0/d/e/1FAIpQLSd_HqM5UIevYTGRvAooAlfRdRCcrTC9RaHtLQSNp3UB0JzhHA/formResponse';}"></iframe>
+</body>
+</html>
+
+<!-- <div jscontroller="sWGJ4b" jsaction="EEvAHc:yfX9oc;" jsname="WsjYwc" class="geS5n AgroKb oQYVNd Jj6Lae"><div jscontroller="v4y9Mc" jsaction="rcuQ6b:vZc4S;sPvj8e:d3sQLd;O22p3e:zjh6rb;AHmuwe:h06R8;b2trFe:eVidQc;"><div class="z12JJ"><div class="HoXoMd D1wxyf RjsPE" dir="auto" role="heading" aria-level="3"><span class="M7eMe">メールアドレス</span><span class="vnumgf" id="i4" aria-label="必須の質問"> *</span></div></div><div class="rFrNMe k3kHxc RdH0ib yqQS1 zKHdkd" jscontroller="pxq3x" jsaction="clickonly:KjsqPd; focus:Jt1EX; blur:fpfTEe; input:Lg5SV" jsshadow="" jsname="YPqjbf"><div class="aCsJod oJeWuf"><div class="aXBtI Wic03c"><div class="Xb9hP"><input type="email" class="whsOnd zHQkBf" jsname="YPqjbf" autocomplete="email" tabindex="0" aria-label="メールアドレス" aria-disabled="false" required="" dir="auto" data-initial-dir="auto" data-initial-value=""><div jsname="LwH6nd" class="ndJi5d snByac" aria-hidden="true">メールアドレス</div></div><div class="i9lrp mIZh1c"></div><div jsname="XmnwAc" class="OabDMe cXrdqd Y2Zypf" style="transform-origin: 65px center;"></div></div></div><div class="LXRPh"><div jsname="ty6ygf" class="ovnfwe Is7Fhb"></div></div></div></div><div jsname="Rfh2Tc" class="SL4Sz" id="i3" role="alert"><div class="rRld8e"><div class="foqfDc gdyQ3c"><div aria-hidden="true" class="Y0xAIe BNL9Bd NpcyEe-n5T17d-Bz112c-u0pjoe-i5vt6e-BvMwwf">&nbsp;</div><div aria-hidden="true" class="Y0xAIe ivmiLb NpcyEe-n5T17d-Bz112c-u0pjoe-i5vt6e-AhqUyc">&nbsp;</div><div aria-hidden="true" class="Y0xAIe tDDvMb NpcyEe-n5T17d-Bz112c-u0pjoe-i5vt6e-oq6NAc">&nbsp;</div></div></div><span class="RHiWt">この質問は必須です</span></div></div>
+<div jscontroller="v4y9Mc" jsaction="rcuQ6b:vZc4S;sPvj8e:d3sQLd;O22p3e:zjh6rb;AHmuwe:h06R8;b2trFe:eVidQc;"><div class="z12JJ"><div class="HoXoMd D1wxyf RjsPE" dir="auto" role="heading" aria-level="3"><span class="M7eMe">メールアドレス</span><span class="vnumgf" id="i4" aria-label="必須の質問"> *</span></div></div><div class="rFrNMe k3kHxc RdH0ib yqQS1 zKHdkd" jscontroller="pxq3x" jsaction="clickonly:KjsqPd; focus:Jt1EX; blur:fpfTEe; input:Lg5SV" jsshadow="" jsname="YPqjbf"><div class="aCsJod oJeWuf"><div class="aXBtI Wic03c"><div class="Xb9hP"><input type="email" class="whsOnd zHQkBf" jsname="YPqjbf" autocomplete="email" tabindex="0" aria-label="メールアドレス" aria-disabled="false" required="" dir="auto" data-initial-dir="auto" data-initial-value=""><div jsname="LwH6nd" class="ndJi5d snByac" aria-hidden="true">メールアドレス</div></div><div class="i9lrp mIZh1c"></div><div jsname="XmnwAc" class="OabDMe cXrdqd Y2Zypf" style="transform-origin: 65px center;"></div></div></div><div class="LXRPh"><div jsname="ty6ygf" class="ovnfwe Is7Fhb"></div></div></div></div>
+<div jsmodel="CP1oW" data-params="%.@.[1489506358,&quot;メールアドレス&quot;,null,0,[[310605352,null,true,null,null,null,null,null,null,null,[]]],null,null,null,null,null,null,[null,&quot;メールアドレス&quot;]],&quot;i9&quot;,&quot;i10&quot;,&quot;i11&quot;,false]"><div jscontroller="sWGJ4b" jsaction="EEvAHc:yfX9oc;" jsname="WsjYwc" class="geS5n"><div class="z12JJ"><div class="M4DNQ"><div id="i9" class="HoXoMd D1wxyf RjsPE" role="heading" aria-level="3" aria-describedby="i12"><span class="M7eMe">メールアドレス</span><span class="vnumgf" id="i12" aria-label="必須の質問"> *</span></div><div class="gubaDc OIC90c RjsPE" id="i10"></div></div></div><div jscontroller="oCiKKc" jsaction="rcuQ6b:vZc4S;O22p3e:zjh6rb;b2trFe:eVidQc;sPvj8e:d3sQLd;AHmuwe:h06R8;" class="AgroKb"><div class="rFrNMe k3kHxc RdH0ib yqQS1 zKHdkd" jscontroller="pxq3x" jsaction="clickonly:KjsqPd; focus:Jt1EX; blur:fpfTEe; input:Lg5SV" jsshadow="" jsname="YPqjbf"><div class="aCsJod oJeWuf"><div class="aXBtI Wic03c"><div class="Xb9hP"><input type="text" class="whsOnd zHQkBf" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-labelledby="i9" aria-describedby="i10 i11" aria-disabled="false" required="" dir="auto" data-initial-dir="auto" data-initial-value=""><div jsname="LwH6nd" class="ndJi5d snByac" aria-hidden="true">回答を入力</div></div><div class="i9lrp mIZh1c"></div><div jsname="XmnwAc" class="OabDMe cXrdqd"></div></div></div><div class="LXRPh"><div jsname="ty6ygf" class="ovnfwe Is7Fhb"></div></div></div></div><div jsname="Rfh2Tc" class="SL4Sz" id="i11" role="alert"></div></div></div> -->
